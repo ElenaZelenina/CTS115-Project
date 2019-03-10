@@ -31,17 +31,23 @@ nav h2 {
     padding: 64px 16px 35px;
     color: #fff;
 }
-nav li:hover, nav li:hover a {
+nav a {
+    display: block;
+    padding: 12px;
+}
+nav a:hover {
     color:#000;
     background-color:#fff
 }
 ul {
     padding: 0 8px;
 }
+
 li {
     list-style: none;
-    padding: 12px;
 }
+
+
 a, a:visited, a:link {
     color: #fff;
     background-color: #f44336;

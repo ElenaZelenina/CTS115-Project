@@ -67,9 +67,12 @@ h2 {
     font-size: 48px
 }
 
-hr {
-    border:5px solid red; 
+hr.h2 {
+    border: 5px solid red; 
     border-radius: 4px;
+    width: 50px;
+    text-align: left;
+    margin-left: 0;
 }
 
 figure {
@@ -98,6 +101,7 @@ a {
     color: #f44336;
     background-color: #fff;
 }
+
 footer {
     margin: 75px 40px 45px 380px;
     position: relative;

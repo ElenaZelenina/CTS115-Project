@@ -32,6 +32,7 @@ nav {
 nav h2 {
     padding: 64px 16px 35px;
     color: #fff;
+    border: 0;
 }
 
 nav a {
@@ -64,15 +65,8 @@ main {
 }
 
 h2 {
-    font-size: 48px
-}
-
-hr.h2 {
-    border: 5px solid red; 
-    border-radius: 4px;
-    width: 50px;
-    text-align: left;
-    margin-left: 0;
+    font-size: 48px;
+    border-bottom: 3px solid red;
 }
 
 figure {
